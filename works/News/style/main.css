@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-logo {
+    width: 150px;
+    height: 71px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+nav ul li>:not(:last-child) {
+    margin-right: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+nav ul li  a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3A3838;
+}
+
+nav ul >:not(:last-child) {
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    transition: 500ms all;
+    color: #EF4423
+}
+
+.header-content {
+    padding: 15px 0 36px;
+}
+
+
+.news {
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+}
+
+.news div {
+    max-height: 380px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.box-title {
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 8px 15px;
+}
+
+.box-desc {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 15px 8px;
+}
+
+h5 {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #3A3838;
+    margin: 40px;
+}
+
+main >:not(:first-of-type) {
+    background: #EDEDED;
+}
+
+.main-news {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A3838;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.main-news div p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 21px;
+    margin-top: 30px;
+}
+
+.main-desc {
+    max-width: 540px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.main-news img {
+    display: block;
+    width: 100%;
+}
+
+.main-img {
+    margin-right: 15px;
+}
+
+footer {
+    background: #3A3838;
+    margin-top: 50px;
+}
+
+footer nav ul li  a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 71px;
+    margin: 28px 0;
+}
+
+
